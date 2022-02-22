@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "card-knockout-game"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Vergara <daniel.vergara.echeverri@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.0.4"
+numpy = "^1.22.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+play = "card_knockout_game.main:play"
+simulate = "card_knockout_game.main:simulate"
