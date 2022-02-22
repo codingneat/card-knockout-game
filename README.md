@@ -13,6 +13,7 @@ poetry run simulate -p1 Sally -p2 Mary -v -c 80 -g 50
 To see different options you can run help commands
 ```
 poetry run play --help
+```
 
 ```
 poetry run simulate --help
